@@ -1,0 +1,143 @@
+/* CSS Reset */
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* General Section */
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 2.4rem;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero {
+  height: 67rem;
+  background: linear-gradient(
+    103.41deg,
+    rgba(255, 255, 255, 0.2) 0.14%,
+    rgba(28, 198, 255, 0.2) 46.87%,
+    rgba(46, 99, 243, 0.2) 99.33%
+  );
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  height: 7.2rem;
+  align-items: center;
+  padding: 0 3.2rem;
+  gap: 2rem;
+}
+
+/* Header */
+.logo {
+  display: inline-block;
+  width: 9.8rem;
+  height: 3.6rem;
+  margin-right: 1rem;
+  background-image: url(https://assets.prezicdn.net/assets-versioned/coverservice-versioned/3436-7f749de/common/img/logo/prezi-logo.svg);
+  content: "";
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  color: #475262;
+  font-size: 1.3rem;
+  padding: 0.8rem 0.7rem;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: rgba(178, 178, 178, 0.24);
+  border-radius: 5px;
+}
+
+.nav-link--separator {
+  margin-right: auto;
+}
+
+.nav-link.button {
+  padding: 1.3rem;
+  border-radius: 3px;
+  font-weight: 500;
+  line-height: 1.3rem;
+  text-align: center;
+}
+
+.nav-link.button.secondary {
+  background-color: #fff;
+  border: 1px solid #b1b8be;
+  color: #1e55eb;
+}
+
+.nav-link.button.primary {
+  background-color: rgb(49, 129, 255);
+  border: 1px solid #1e55eb;
+  color: #fff;
+}
+
+.hero-slogan {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  color: #475262;
+  text-align: center;
+  margin-top: 5.6rem;
+}
+
+.hero-content {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 3.2rem;
+  color: #475262;
+  font-size: 2.2rem;
+  line-height: 3.4rem;
+  padding: 0 1.6rem;
+}
+
+.hero-card-group {
+  display: flex;
+  justify-content: center;
+  gap: 3.6rem;
+  padding: 4.5rem 4rem;
+}
+
+.hero-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1rem 2.4rem 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-card-img {
+  width: 100%;
+}
+
+.hero-card-text {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  padding: 3.2rem;
+  color: #475262;
+  text-align: center;
+}
